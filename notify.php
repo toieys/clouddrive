@@ -6,7 +6,7 @@ $message = 'close';
 
 define('LINE_API',"https://notify-api.line.me/api/notify");
  
-$token ="RT2I23exAmlJgAHywZ5xpySfqmD9LqoToyKbDZztfKG"; //ใส่Token ที่copy เอาไว้
+$token ="xD1gZAYXNz3185lnUMvd3G3CBP8SzdaUqOmG163Nbim"; //ใส่Token ที่copy เอาไว้
 $str = "Hello"; //ข้อความที่ต้องการส่ง สูงสุด 1000 ตัวอักษร
  
 $res = notify_message($str,$token);
