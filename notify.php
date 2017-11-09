@@ -16,10 +16,10 @@ function notify_message($message,$token){
  $queryData = http_build_query($queryData,'','&');
  $headerOptions = array( 
          'http'=>array(
-            'method'=>’POST’,
+            'method'=>'POST',
             'header'=> "Content-Type: application/x-www-form-urlencoded\r\n"
                       ."Authorization: Bearer ".$token."\r\n"
-                      ."Content-Length: “.strlen($queryData)."\r\n",
+                      ."Content-Length: ".strlen($queryData)."\r\n",
             'content' => $queryData
          ),
  );
